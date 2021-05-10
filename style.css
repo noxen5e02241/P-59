@@ -60,7 +60,7 @@ margin: 8px auto;
 }
  a{
 text-decoration: none;
-color: aqua !important;
+color: black !important;
 }
 .b1{
 background-color: aqua;
@@ -72,4 +72,11 @@ color: black !important;
 }
 p{
 font-family:monospace;
+}
+.abc{
+width: 350px;
+transition: transform .2s;
+}
+.abc:hover{
+transform: scale(0.9);
 }
